@@ -1,11 +1,11 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
-from chatbott import SimpleChatbot
+from chatbott import UniversityChatbot
 import os
 
 app = Flask(__name__)
 CORS(app)
-chatbot = SimpleChatbot()
+chatbot = UniversityChatbot()
 
 @app.route('/')
 def home():
