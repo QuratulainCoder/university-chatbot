@@ -1,9 +1,147 @@
 {
-    "greetings": {"salam":"hello","assalamualaikum":"hello","hello":"hello","hi":"hi"},
-    "programs": {"programs kya hain":"what programs","courses koun se hain":"what courses","bs ke bare mein":"about bs","ms ki information":"ms information"},
-    "admission": {"admission kaise lein":"how to get admission","apply karna hai":"want to apply"},
-    "merit": {"merit list kab aayegi":"when merit list","merit kab announce":"when merit"},
-    "deadline": {"last date kya hai":"what is last date","deadline kya hai":"what is deadline"},
-    "result": {"result kab aayega":"when result","test ka result":"test result"},
-    "farewells": {"khuda hafiz":"goodbye","bye":"bye"}
+  "university_info": {
+    "name": "University Name",
+    "admission_office": "Admission Office",
+    "website": "https://university.edu.pk",
+    "contact_email": "admissions@university.edu.pk",
+    "contact_phone": "+92-XXX-XXXXXXX",
+    "office_hours": "9:00 AM - 5:00 PM (Monday to Friday)"
+  },
+  
+  "programs": {
+    "bs_programs": [
+      "BS Computer Science",
+      "BS Software Engineering", 
+      "BS Information Technology"
+    ],
+    "ms_programs": [
+      "MS Computer Science",
+      "MS Data Science",
+      "MS Software Engineering"
+    ],
+    "mphil_programs": [
+      "MPhil Computer Science",
+      "MPhil Emerging Technologies"
+    ]
+  },
+  
+  "admission_data": {
+    "procedure": [
+      "Fill online application form at university website",
+      "Upload required documents (CNIC, transcripts, photos)",
+      "Pay admission processing fee",
+      "Appear for entry test",
+      "Check merit list on university website",
+      "Complete enrollment formalities"
+    ],
+    "deadlines": {
+      "BS": "August 30, 2024",
+      "MS": "July 30, 2024", 
+      "MPhil": "September 1, 2024"
+    },
+    "requirements": {
+      "BS": "Intermediate with 50% marks",
+      "MS": "16-year degree with 2.5 CGPA",
+      "MPhil": "16-year education with 2.5 CGPA + entry test"
+    },
+    "merit_dates": {
+      "bs_merit_date": "September 10, 2024",
+      "ms_merit_date": "August 15, 2024",
+      "mphil_merit_date": "September 20, 2024"
+    },
+    "result_dates": {
+      "bs_result_date": "September 5, 2024",
+      "ms_result_date": "August 10, 2024",
+      "mphil_result_date": "September 15, 2024"
+    }
+  },
+  
+  "roman_urdu_mapping": {
+    "greetings": {
+      "salam": "hello",
+      "assalamualaikum": "hello", 
+      "hello": "hello",
+      "hi": "hi",
+      "kaise ho": "how are you",
+      "kya haal hai": "how are you"
+    },
+    "program_queries": {
+      "programs kya hain": "what programs are there",
+      "courses koun se hain": "what courses do you offer",
+      "bs ke bare mein batao": "tell me about bs programs",
+      "ms ki information chahiye": "i need ms information",
+      "mphil ke bare mein batayein": "information about mphil",
+      "kya courses hain": "what courses are available",
+      "kon kon se program hain": "which programs are there",
+      "ap kon kon sa program chalate hain": "which programs do you run",
+      "program kya kya hai": "what programs are available",
+      "konsa program chalta hai": "which program is running",
+      "kwa rha h": "offering",
+      "chala rha h": "running",
+      "offer kya kya hai": "what do you offer",
+      "konsa course available hai": "which course is available"
+    },
+    "admission_queries": {
+      "admission kaise lein": "how to get admission",
+      "apply karna hai": "i want to apply",
+      "dakhla ka tareeqa": "admission procedure",
+      "admission ke liye kya karna hai": "what to do for admission",
+      "form kaise bharein": "how to fill form"
+    },
+    "merit_queries": {
+      "merit list kab aayegi": "when will merit list come",
+      "merit kab announce hogi": "when will merit be announced",
+      "merit ka pata kab chalega": "when will we know merit",
+      "list kab lagaygi": "when will list be displayed"
+    },
+    "deadline_queries": {
+      "last date kya hai": "what is last date",
+      "aakhri tareekh kya hai": "what is final date",
+      "kab tak apply kar sakte hain": "until when can we apply",
+      "deadline kya hai": "what is deadline"
+    },
+    "result_queries": {
+      "result kab aayega": "when will result come",
+      "test ka result kab aayega": "when will test result come",
+      "entry test ka result": "entry test result",
+      "natija kab aayega": "when will result come"
+    },
+    "procedure_queries": {
+      "tareeqa kaise hai": "what is procedure",
+      "kaise apply karein": "how to apply",
+      "process kya hai": "what is process",
+      "dakhla kaise lein": "how to get admission"
+    },
+    "schedule_queries": {
+      "class ka schedule chahiye": "i need class schedule",
+      "timetable kya hai": "what is timetable",
+      "periods ka time": "class timing",
+      "schedule batayein": "tell schedule"
+    },
+    "farewells": {
+      "khuda hafiz": "goodbye",
+      "allah hafiz": "goodbye",
+      "bye": "bye",
+      "chalta hun": "i am leaving"
+    }
+  },
+  
+  "chatbot_responses": {
+    "greeting": "Hello! 👋 Welcome to University Admission Office. How can I help you today? Are you looking for information about BS, MS, or MPhil programs?",
+    "farewell": "Thank you for contacting University Admission Office. Goodbye! 🎓",
+    "programs_intro": "🎓 **Programs We Offer:**\n\n**BS Programs (4 Years):**\n• BS Computer Science\n• BS Software Engineering\n• BS Information Technology\n\n**MS Programs (2 Years):**\n• MS Computer Science\n• MS Data Science\n• MS Software Engineering\n\n**MPhil Programs (2 Years):**\n• MPhil Computer Science\n• MPhil Emerging Technologies\n\nWould you like details on admission criteria, fee structure, or deadlines for one of these?",
+    "admission_info": "📝 **Admission Process:**\n\n1. Fill out the online application form at university website\n2. Upload your required documents (CNIC, transcripts, photos)\n3. Pay the admission fee\n4. Appear in the entry test\n5. Check the merit list and finalize your enrollment\n\nDo you need help with any specific step?",
+    "merit_info": "🏆 **Merit Information:**\n\nThe merit list for {program_type} will be displayed on our university website on {merit_date}. Please check the 'Admissions → Merit List' section.",
+    "deadline_info": "⏰ **Admission Deadlines:**\n\nThe last date to apply for {program_type} is {deadline}. Make sure to submit your application and documents before this date.",
+    "result_info": "📊 **Result Information:**\n\nThe entry test results for {program_type} will be uploaded on the official university portal on {result_date}. You can log in with your admission ID to check.",
+    "schedule_info": "📅 **Class Schedule:**\n\nYes, please log in to the Student Portal. You can also download the class schedule file (PDF). Do you also want the academic calendar?",
+    "contact_info": "📞 **Contact Information:**\n\n• Email: admissions@university.edu.pk\n• Phone: +92-XXX-XXXXXXX\n• Office Hours: 9:00 AM - 5:00 PM (Mon-Fri)\n• Address: Admission Office, Main Campus",
+    "default_response": "🤔 I'm here to help with admission information! You can ask about:\n• Programs (BS, MS, MPhil)\n• Admission procedure\n• Application deadlines\n• Merit lists\n• Results\n• Class schedules\n\nWhat would you like to know?"
+  },
+  
+  "program_details": {
+    "bs_details": "Our BS programs are 4-year degrees with majors in Computer Science, Software Engineering, and Information Technology. Admission requires at least 50% marks in Intermediate/Equivalent. Classes are held in morning sessions. ☀️",
+    "ms_details": "Our MS programs are 2-year degrees, requiring a 16-year degree in a relevant field with at least 2.5 CGPA or equivalent. The admission test + interview are mandatory. 🌙",
+    "mphil_details": "Our MPhil programs are research-based, requiring 16 years of education with 2.5+ CGPA. Students must clear the university entry test or GAT test before admission. 🔍"
+  }
 }
