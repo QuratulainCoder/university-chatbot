@@ -1,0 +1,7 @@
+flask==2.3.3
+flask-cors==4.0.0
+numpy==1.23.5
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.21.1
+phonetics==1.0.5
+PyMuPDF==1.23.8

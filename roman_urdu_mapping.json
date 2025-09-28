@@ -1,0 +1,9 @@
+{
+    "greetings": {"salam":"hello","assalamualaikum":"hello","hello":"hello","hi":"hi"},
+    "programs": {"programs kya hain":"what programs","courses koun se hain":"what courses","bs ke bare mein":"about bs","ms ki information":"ms information"},
+    "admission": {"admission kaise lein":"how to get admission","apply karna hai":"want to apply"},
+    "merit": {"merit list kab aayegi":"when merit list","merit kab announce":"when merit"},
+    "deadline": {"last date kya hai":"what is last date","deadline kya hai":"what is deadline"},
+    "result": {"result kab aayega":"when result","test ka result":"test result"},
+    "farewells": {"khuda hafiz":"goodbye","bye":"bye"}
+}
